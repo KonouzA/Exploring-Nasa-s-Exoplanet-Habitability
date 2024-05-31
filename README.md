@@ -2,7 +2,7 @@
 
 # Phase 1: 
 ## Description
-This project explores the NASA Exoplanet dataset, which contains information about various exoplanets and their host stars. The primary goal is to perform data cleaning, preprocessing, and exploratory data analysis to gain insights into the properties and habitability of exoplanets. In addition, T=this project aims to scrape and analyze data related to exoplanets from various sources on the web. It utilizes Python libraries such as Selenium, BeautifulSoup, Pandas, and Matplotlib to extract, clean, and visualize the collected data.
+This project explores the NASA Exoplanet dataset, which contains information about various exoplanets and their host stars. The primary goal is to perform data cleaning, preprocessing, and exploratory data analysis to gain insights into the properties and habitability of exoplanets. In addition, this project aims to scrape and analyze data related to exoplanets from various sources on the web. It utilizes Python libraries such as Selenium, BeautifulSoup, Pandas, and Matplotlib to extract, clean, and visualize the collected data.
 
 ### Dataset
 The dataset used in this project is the "Exoplanets.csv" file, which contains information such as planet name, host star name, discovery method, physical properties (mass, radius, orbital period, eccentricity), and stellar properties (effective temperature, metallicity, surface gravity).
@@ -17,41 +17,43 @@ ExoplanetsandHabitability.pptx: This powerpoint presentation is how we presented
 
 Exoplanets.csv: The dataset file containing exoplanet information.
 
+ExoplanetsClean.csv: The dataset file containing exoplanet information after cleaning.
+
 ### Dependencies
 The following Python libraries are required to run the code:
 
-pandas
-numpy
-matplotlib
-seaborn
-missingno
-fuzzywuzzy
-theverse
-scipy
-math
-sklearn
-Selenium
-BeautifulSoup
-Plotly
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* missingno
+* fuzzywuzzy
+* theverse
+* scipy
+* math
+* sklearn
+* Selenium
+* BeautifulSoup
+* Plotly
 
 ### Analysis
 The notebooks covers the following analysis steps:
 - Phase 1:
-Data cleaning and preprocessing
-Handling missing values
-Removing duplicates and inconsistencies
-Outlier detection and treatment
-Exploratory data analysis
-Visualizations and insights
+* Data cleaning and preprocessing
+* Handling missing values
+* Removing duplicates and inconsistencies
+* Outlier detection and treatment
+* Exploratory data analysis
+* Visualizations and insights
 
 - Phase 2:
-Web scraping of NASA's Exoplanet Watch Results data using Selenium
-Web scraping of exoplanet molecular composition data from an iframe
-Data cleaning and preprocessing
-Integration of scraped data with existing exoplanet datasets
-Exploratory data analysis and visualizations
-Hypothesis testing (Chi-square test)
-Habitability analysis and visualization
+* Web scraping of NASA's Exoplanet Watch Results data using Selenium
+* Web scraping of exoplanet molecular composition data from an iframe
+* Data cleaning and preprocessing
+* Integration of scraped data with existing exoplanet datasets
+* Exploratory data analysis and visualizations
+* Hypothesis testing (Chi-square test)
+* Habitability analysis and visualization
 
 ### Contributors
 This project was an amazing group effort made my colleages Zeinab and Jannah and I throughout our college semester. 
