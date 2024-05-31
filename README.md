@@ -55,7 +55,7 @@ Phase 2:
 * Habitability analysis and visualization
 
 ### Contributors
-This project was an amazing group effort made my colleages Zeinab and Jannah and I throughout our college semester. 
+This project was an amazing group effort made my colleages Zeinab Donia (https://github.com/ZeinabAbdelahadDonia) and Jannah and I throughout our college semester. 
 
 ### Acknowledgments
 NASA Exoplanet Archive
