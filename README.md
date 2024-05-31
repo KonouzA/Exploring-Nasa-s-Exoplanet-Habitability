@@ -1,16 +1,23 @@
 # Exploring-Nasa-Exoplanet-Habitability
 
-Exoplanet Exploration Project
-Description
-This project explores the Exoplanet dataset, which contains information about various exoplanets and their host stars. The primary goal is to perform data cleaning, preprocessing, and exploratory data analysis to gain insights into the properties and habitability of exoplanets.
-Dataset
-The dataset used in this project is the "Exoplanets.csv" file, which contains information such as planet name, host star name, discovery method, physical properties (mass, radius, orbital period, eccentricity), and stellar properties (effective temperature, metallicity, surface gravity).
-Files
+# Phase 1: 
+## Description
+This project explores the NASA Exoplanet dataset, which contains information about various exoplanets and their host stars. The primary goal is to perform data cleaning, preprocessing, and exploratory data analysis to gain insights into the properties and habitability of exoplanets. In addition, T=this project aims to scrape and analyze data related to exoplanets from various sources on the web. It utilizes Python libraries such as Selenium, BeautifulSoup, Pandas, and Matplotlib to extract, clean, and visualize the collected data.
 
-Exoplanets.ipynb: This Jupyter Notebook contains the complete code for data cleaning, preprocessing, exploratory data analysis, and visualization.
+### Dataset
+The dataset used in this project is the "Exoplanets.csv" file, which contains information such as planet name, host star name, discovery method, physical properties (mass, radius, orbital period, eccentricity), and stellar properties (effective temperature, metallicity, surface gravity).
+
+### Files
+
+DSPhase1Group24.ipynb: This Jupyter Notebook contains the complete code for data cleaning, preprocessing, exploratory data analysis, and visualization.
+
+DSPhase2Group24.ipynb: This Jupyter Notebook contains the complete code for web scraping, data cleaning, preprocessing, integrating data, exploratory data analysis, visualization, and hypothesis testing.
+
+ExoplanetsandHabitability.pptx: This powerpoint presentation is how we presented and communicated our insights and findings from the data in an engaging and professional manner.
+
 Exoplanets.csv: The dataset file containing exoplanet information.
 
-Dependencies
+### Dependencies
 The following Python libraries are required to run the code:
 
 pandas
@@ -23,19 +30,13 @@ theverse
 scipy
 math
 sklearn
+Selenium
+BeautifulSoup
+Plotly
 
-You can install these libraries using the following command:
-Copy codepip install pandas numpy matplotlib seaborn missingno fuzzywuzzy theverse scipy scikit-learn
-Usage
-
-Clone or download the repository to your local machine.
-Open the "Exoplanets.ipynb" file in Jupyter Notebook or any compatible environment.
-Make sure the "Exoplanets.csv" file is in the same directory as the Jupyter Notebook.
-Run the Jupyter Notebook cells sequentially to see the data cleaning, preprocessing, exploratory analysis, and visualizations.
-
-Analysis
-The notebook covers the following analysis steps:
-
+### Analysis
+The notebooks covers the following analysis steps:
+- Phase 1:
 Data cleaning and preprocessing
 Handling missing values
 Removing duplicates and inconsistencies
@@ -43,5 +44,19 @@ Outlier detection and treatment
 Exploratory data analysis
 Visualizations and insights
 
-Contributions
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+- Phase 2:
+Web scraping of NASA's Exoplanet Watch Results data using Selenium
+Web scraping of exoplanet molecular composition data from an iframe
+Data cleaning and preprocessing
+Integration of scraped data with existing exoplanet datasets
+Exploratory data analysis and visualizations
+Hypothesis testing (Chi-square test)
+Habitability analysis and visualization
+
+### Contributors
+This project was an amazing group effort made my colleages Zeinab and Jannah and I throughout our college semester. 
+
+### Acknowledgments
+NASA Exoplanet Archive
+NASA Exoplanet Watch
+IAC Extrasolar Planet Encyclopaedia
