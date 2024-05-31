@@ -37,7 +37,7 @@ The following Python libraries are required to run the code:
 
 ### Analysis
 The notebooks covers the following analysis steps:
-- Phase 1:
+Phase 1:
 * Data cleaning and preprocessing
 * Handling missing values
 * Removing duplicates and inconsistencies
@@ -45,7 +45,7 @@ The notebooks covers the following analysis steps:
 * Exploratory data analysis
 * Visualizations and insights
 
-- Phase 2:
+Phase 2:
 * Web scraping of NASA's Exoplanet Watch Results data using Selenium
 * Web scraping of exoplanet molecular composition data from an iframe
 * Data cleaning and preprocessing
