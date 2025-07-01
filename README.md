@@ -1,4 +1,4 @@
-# Exploring-Nasa-Exoplanet-Habitability
+# Data-Science-Nasa-Exoplanet-Habitability
 
 ## Description
 This project explores the NASA Exoplanet dataset, which contains information about various exoplanets and their host stars. The primary goal is to perform data cleaning, preprocessing, and exploratory data analysis to gain insights into the properties and habitability of exoplanets. In addition, this project aims to scrape and analyze data related to exoplanets from various sources on the web. It utilizes Python libraries such as Selenium, BeautifulSoup, Pandas, and Matplotlib to extract, clean, and visualize the collected data.
